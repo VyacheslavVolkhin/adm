@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
 
 	//fancybox
-	Fancybox.bind("[data-fancybox]", {
+	//Fancybox.bind("[data-fancybox]", {
 		//settings
-	});
+	//});
 
 
 	//js popup wrap
