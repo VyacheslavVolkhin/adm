@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Главная</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/fancybox.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <script src="./js/swiper-bundle.min.js" defer></script>
+    <script src="./js/fancybox.umd.js" defer></script>
+    <script src="./js/scripts.js" defer></script>
+</head>
+
+<body>
+    <!-- wrap -->
+    <div class="wrap">
+
+        <!--side-menu-box-->
+        <div class="side-menu-box">
+            <div class="logo-inner-wrap">
+                <a href="" class="logo">
+                    <img src="./img/main/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="menu-inner-wrap">
+                <ul class="menu">
+                    <li><a href="" class="btn-menu active">
+                            <div class="button-title">Агенты</div>
+                        </a></li>
+                    <li><a href="" class="btn-menu">
+                            <div class="button-title">Верификация</div>
+                        </a></li>
+                    <li><a href="" class="btn-menu">
+                            <div class="button-title">Новые Заявки</div>
+                        </a></li>
+                    <li><a href="" class="btn-menu">
+                            <div class="button-title">Мои Заявки</div>
+                        </a></li>
+                    <li><a href="" class="btn-menu">
+                            <div class="button-title">Вывод средств</div>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <!--/side-menu-box-->
+
+        <div class="wrap-inner-box">
+            <!--page-title-box-->
+            <div class="page-title-box">
+                <div class="title-wrap">
+                    <div class="h1-title">Мои Заявки</div>
+                </div>
+                <div class="action-wrap">
+                    <a href="" class="btn-action-ico js-filter-toggle">
+                        <img src="./img/icons/filter.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <!--/page-title-box-->
+
+            <!-- page -->
+            <div class="page-content-box">
+
+                <!--filter-box-->
+                <div class="filter-box">
+                    <div class="frm-row">
+                        <div class="frm-field">
+                            <div class="field-title">ФИО Рабочего</div>
+                            <div class="field-content">
+                                <input type="text" class="form-input inp-large" value="Иванов Иван Иванович">
+                            </div>
+                        </div>
+                        <div class="frm-field">
+                            <div class="field-title">ФИО Агент</div>
+                            <div class="field-content">
+                                <input type="text" class="form-input inp-large" value="Петров Петр Петрович">
+                            </div>
+                        </div>
+                        <div class="frm-field">
+                            <div class="field-title">Объекту</div>
+                            <div class="field-content">
+                                <select class="form-input inp-large">
+                                    <option value="">Капитальный ремонт мостового перехода и дороги Чусовой (Ермак)</option>
+                                    <option value="">Капитальный ремонт мостового перехода и дороги Чусовой (Ермак)</option>
+                                    <option value="">Капитальный ремонт мостового перехода и дороги Чусовой (Ермак)</option>
+                                    <option value="">Капитальный ремонт мостового перехода и дороги Чусовой (Ермак)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="frm-field">
+                            <div class="field-title">Этап</div>
+                            <div class="field-content">
+                                <select class="form-input inp-large">
+                                    <option value="">Прозвон</option>
+                                    <option value="">Прозвон</option>
+                                    <option value="">Прозвон</option>
+                                    <option value="">Прозвон</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="frm-field">
+                            <div class="field-title">Статус</div>
+                            <div class="field-content">
+                                <select class="form-input inp-large">
+                                    <option value="">В обработке</option>
+                                    <option value="">В обработке</option>
+                                    <option value="">В обработке</option>
+                                    <option value="">В обработке</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="frm-field">
+                            <div class="field-content">
+                                <a href="" class="btn button-large">
+                                    <div class="button-title">Найти</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/search.svg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/filter-box-->
+
+                <!--table-box-->
+                <div class="table-box">
+                    <div class="tbl-inner-wrap">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="td-small">№</th>
+                                    <th>Агент</th>
+                                    <th>Специальность</th>
+                                    <th>Объект</th>
+                                    <th>ФИО</th>
+                                    <th>Телефон</th>
+                                    <th>Город</th>
+                                    <th>Этап</th>
+                                    <th>Статус</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td class="td-left">Иванов Иван Иванович</td>
+                                    <td class="td-left">Бетонщик</td>
+                                    <td class="td-lines td-left">Капитальный ремонт мостового перехода и дороги Чусовой (Ермак)</td>
+                                    <td>Петров Петр Петрович</td>
+                                    <td>+7 (999) 999-99-99</td>
+                                    <td>Санкт-Петербург</td>
+                                    <td>
+                                        <select class="form-input">
+                                            <option value="">Взят в работу</option>
+                                            <option value="">Взят в работу</option>
+                                            <option value="">Взят в работу</option>
+                                            <option value="">Взят в работу</option>
+                                            <option value="">Взят в работу</option>
+                                        </select>
+                                    </td>
+                                    <td class="color-att">Взят в работу</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td class="td-left">Иванов Иван Иванович</td>
+                                    <td class="td-left">Каменщик</td>
+                                    <td class="td-lines td-left">Строительство водостока прилегающего к мосту Пермь (ЛОС2)</td>
+                                    <td>Петров Петр Петрович</td>
+                                    <td>+7 (999) 999-99-99</td>
+                                    <td>Санкт-Петербург</td>
+                                    <td>
+                                        <select class="form-input">
+                                            <option value="">Взят в работу</option>
+                                            <option value="">Взят в работу</option>
+                                            <option value="">Взят в работу</option>
+                                            <option value="">Взят в работу</option>
+                                            <option value="">Взят в работу</option>
+                                        </select>
+                                    </td>
+                                    <td class="color-att">Прозвон</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td class="td-left">Иванов Иван Иванович</td>
+                                    <td class="td-left">Подсобный рабочий</td>
+                                    <td class="td-lines td-left">Нижнекамск 2 ПК 546.552</td>
+                                    <td>Петров Петр Петрович</td>
+                                    <td>+7 (999) 999-99-99</td>
+                                    <td>Санкт-Петербург</td>
+                                    <td>
+                                        <select class="form-input">
+                                            <option value="">Взят в работу</option>
+                                            <option value="">Взят в работу</option>
+                                            <option value="">Взят в работу</option>
+                                            <option value="">Взят в работу</option>
+                                            <option value="">Взят в работу</option>
+                                        </select>
+                                    </td>
+                                    <td class="color-att">Жду документы</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--/table-box-->
+
+            </div>
+            <!-- /page -->
+        </div>
+
+
+
+    </div>
+    <!-- /wrap -->
+
+
+
+</body>
+
+</html>
